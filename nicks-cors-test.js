@@ -5,7 +5,7 @@ function main()
     $.ajax
     ({
         dataType: "json",
-        url: "https://api.github.com",
+        url: "http://localhost:8080/api/customer/test",
         success: function(data) 
         {
             console.log("log response on success");
